@@ -1,4 +1,32 @@
 .container{
     width: 70%;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.footerContainer{
+    background-color: rgb(41, 41, 41);
+}
+
+.socialContainer{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.buttonContainer button{
+    background-color: rgb(41, 41, 41);
+    border: 2px solid rgb(56, 128, 241);
+    padding: 1rem;
+    color: white;
+}
+
+.socialContainer a{
+    color: rgb(56, 128, 241);
+}
+.socialContainer a >img{
+    aspect-ratio: 1/1;
+    height: 2rem;
 }
