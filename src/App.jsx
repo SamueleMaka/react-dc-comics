@@ -1,7 +1,15 @@
+import AppHeader from "./components/Header.jsx"
+import AppBand from "./components/Band.jsx"
+import AppMain from "./components/Main.jsx"
+import AppFooter from "./components/Footer.jsx"
+import "./index.css"
 function App() {
   return(
     <>
-      <h1>Hello World</h1>
+        <AppHeader />
+        <AppBand />
+        <AppMain /> 
+        <AppFooter />
     </>
   )
 }

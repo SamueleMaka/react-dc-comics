@@ -1,0 +1,28 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+    height: 100px;
+}
+
+.linkContainer > ul > li{
+    display: inline-block;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.linkContainer > ul > li:hover{
+    color: rgb(56, 128, 241);
+    border-bottom: 2px solid rgb(56, 128, 241);
+}
+img{
+    height: 4rem;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+  }
