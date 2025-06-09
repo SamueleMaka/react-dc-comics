@@ -5,12 +5,6 @@ function AppBand() {
     <>
         <div className={style.bandContainer}>
 
-            <div className={style.contentHere}>
-                <div className={style.container}>
-                    <p>--&gt; Content goes here &lt;--</p>
-                </div>
-            </div>
-
             <div className={style.productsContainer }>
                 <div className={style.container}>
                     <div className={style.productCard}>
