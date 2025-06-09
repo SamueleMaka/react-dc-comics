@@ -6,7 +6,7 @@
     height: 100px;
 }
 
-.linkContainer > ul > li{
+.linkContainer  li{
     display: inline-block;
     padding: 1rem;
     text-transform: uppercase;
@@ -14,7 +14,7 @@
     line-height: 100%;
 }
 
-.linkContainer > ul > li:hover{
+.linkContainer li:hover{
     color: rgb(56, 128, 241);
     border-bottom: 2px solid rgb(56, 128, 241);
 }
