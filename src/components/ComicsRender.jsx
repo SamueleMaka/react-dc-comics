@@ -1,5 +1,6 @@
 import comics from "../data/comics.js";
 import style from "./ComicsRender.module.css";
+import ProductCard  from "./ProductCard";
 
 function ComicsRender() {
   return (
@@ -7,10 +8,8 @@ function ComicsRender() {
         <div className={style.jumbo}></div>
         <div className={style.Cardscontainer}>
         {comics.map((currComic, index) => (
-            <li key={index} className={style.card}>
-                <img src={currComic.thumb} alt={currComic.series} />
-                <p>{currComic.series}</p>
-            </li>
+            <ProductCard key={index + " List Item"}
+            thumb={currComic.thumb} series={currComic.series} />
         ))}
         </div>
         <button>LOAD MORE</button>
